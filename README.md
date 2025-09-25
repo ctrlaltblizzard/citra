@@ -10,9 +10,28 @@
 > Nothing really fancy here, don't expect too much.\
 > This was figured in Debian, but since I am switching to Gentoo, thought it'd be nice to leave my config.
 
+
+```yaml
+Folder Structure
+├── chrome
+│    └── userChrome.css
+├── gtk-3.0
+│    ├── gtk.css
+│    └── settings.ini
+├── i3
+│    ├── config
+│    ├── config.bak
+├── picom
+│    └── picom.conf
+│── sakura
+│    └── sakura.conf
+└── wallpaper
+      └── vim.png
+```
+
 <details>
 
-<summary>Programs used</summary>
+<summary><h1>Programs Used</h1></summary>
 
 <h4>--Terminal--</h4>
 Sakura
@@ -49,4 +68,3 @@ Firefox - with .css modifications to fit the theme
 Terminal
 
 </details>
-
