@@ -1,5 +1,9 @@
 # Citra - Orange-themed rice, minimalistic.
 
+### Initial Look:
+
+<img width="1366" height="768" alt="scrot-1245" src="https://github.com/user-attachments/assets/66b90eec-027b-4af2-ad23-c44916af26f1" />
+
 > [!NOTE]
 > Work in Progress
 
