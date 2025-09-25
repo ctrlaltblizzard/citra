@@ -1,0 +1,8 @@
+# Add paddings to terminal edges
+
+VteTerminal,
+TerminalScreen,
+vte-terminal {
+	padding: 15px 15px 15px 15px;
+	-VteTerminal-inner-border: 10px 10px 10px 10px;
+}
