@@ -20,7 +20,7 @@ Folder Structure
 │    └── settings.ini
 ├── i3
 │    ├── config
-│    ├── config.bak
+│    └── config.bak
 ├── picom
 │    └── picom.conf
 │── sakura
