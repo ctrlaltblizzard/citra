@@ -1,18 +1,22 @@
 # Citra - Orange-themed rice, minimalistic.
 
-### Initial Look:
+My personal dotfiles for i3wm.
 
-<img width="1366" height="768" alt="scrot-1245" src="https://github.com/user-attachments/assets/66b90eec-027b-4af2-ad23-c44916af26f1" />
+---
 
-> [!NOTE]
-> Work in Progress
+### Programs used
+- **Window Manager**: i3wm + picom (for handling vsync)
+- **Terminal**: Sakura
+- **Application Launcher**: dmenu (default)
+- **Text Editor**: VIM (with orange colorscheme)
+- **Brightness and Volume Control**: brightnessctl + pulseaudio
+- **Image and Video Viewer**: feh (also for background setting) + mpv
+- **Screenshot and Screen Recorder**: scrot (short for **SCR**eensh**OT**) + ffmpeg
+- **Browser**: Firefox ESR (with userChrome.css for styling)
 
-> Nothing really fancy here, don't expect too much.\
-> This was figured in Debian, but since I am switching to Gentoo, thought it'd be nice to leave my config.
 
-
-```yaml
-Folder Structure
+## 📂 Repository Structure
+```bash
 ├── chrome
 │    └── userChrome.css
 ├── gtk-3.0
@@ -29,42 +33,15 @@ Folder Structure
       └── vim.png
 ```
 
-<details>
+## 📝 Notes
+- For the terminal, I use MartianMono Nerd Font
+- This is a minimal i3 setup. It didn't take me 3 days to fully customize it.
+- I mostly use a browser and terminal only, so you may notice there's no fancy file manager, screenshot tool or OBS.
+- Even though I do not use a GUI file manager, I still have icon themes, GTK theme and a cursor, mostly for firefox too, and some other occurances if ever.
+- I'm still working on this setup, perfect blends of orange, adding more keybinds, more suitable programs, finding a TUI file manager, so on and so forth.
 
-<summary><h1>Programs Used</h1></summary>
-
-<h4>--Terminal--</h4>
-Sakura
-
-<h4>--Application Launcher--</h4>
-dmenu - i3wm's default
-
-<h4>--Audio--</h4>
-PulseAudio
-
-<h4>--Brightness Control--</h4>
-brightnessctl
-
-<h4>--Text Editor--</h4>
-VIM
-
-<h4>--Image and Video Viewer--</h4>
-feh - for image view, wallpaper setter
-mpv - view videos
-
-<h4>--Screenshot Tool--</h4>
-scrot
-
-<h4>--Screen Recorder--</h4>
-ffmpeg - by using x11grab
-
-<h4>--Shell--</h4>
-bash
-
-<h4>--Browser--</h4>
-Firefox - with .css modifications to fit the theme
-
-<h4>--File Manager--</h4>
-Terminal
-
-</details>
+## Sources used/mentioned:
+- [Nerd Fonts](https://www.nerdfonts.com/)
+- [userChrome.css](https://github.com/Dook97/firefox-qutebrowser-userchrome) for Firefox
+- [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) for Icon Theme
+- [Skeuos GTK](https://github.com/daniruiz/skeuos-gtk) for GTK Theme, specifically using Orange-Dark variant
