@@ -22,29 +22,33 @@ My personal dotfiles for i3wm.
 ```bash
 ├── chrome
 │    └── userChrome.css
+├── conky
+│    └── conky.conf
+├── fastfetch
+│    └── config.jsonc
 ├── gtk-3.0
-│    ├── gtk.css
-│    └── settings.ini
+│    └── gtk.css
 ├── i3
-│    ├── config
-│    └── config.bak
+│    └── config
 ├── picom
 │    └── picom.conf
-│── sakura
-│    └── sakura.conf
 └── wallpaper
+      └── cow.png
       └── vim.png
+README.md
 ```
 
 ## 📝 Notes
-- For the terminal, I use MartianMono Nerd Font
-- This is a minimal i3 setup. It didn't take me 3 days to fully customize it.
-- I mostly use a browser and terminal only, so you may notice there's no fancy file manager, screenshot tool or OBS.
-- Even though I do not use a GUI file manager, I still have icon themes, GTK theme and a cursor, mostly for firefox too, and some other occurances if ever.
-- I'm still working on this setup, perfect blends of orange, adding more keybinds, more suitable programs, finding a TUI file manager, so on and so forth.
+- This is configured on 1366x768 resolution.
+- Conky is a bit of a mess to configure, especially that it works weird with scrot when doing an area screenshot.
+- For the terminal font, I am using [Martian Mono Nerd Font.](https://www.programmingfonts.org/#martian-mono)
+- I did not include `.vimrc` since I am still working on the configurations of it.
+- Package `brightnessctl` is in the [GURU](https://gpo.zugaina.org/app-misc/brightnessctl) overlay, if you want to install it, enable [GURU.](https://wiki.gentoo.org/wiki/Project:GURU)
+- Configurations on Gentoo and other distributions are a little different, with a little tweaking on the configuration files it should work.
 
 ## Sources used/mentioned:
 - [Nerd Fonts](https://www.nerdfonts.com/)
-- [userChrome.css](https://github.com/Dook97/firefox-qutebrowser-userchrome) for Firefox
+- [userChrome.css](https://github.com/Dook97/firefox-qutebrowser-userchrome) for Firefox, added/changed extra configurations for my personal use.
 - [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) for Icon Theme
-- [Skeuos GTK](https://github.com/daniruiz/skeuos-gtk) for GTK Theme, specifically using Orange-Dark variant
+- [Skeuos GTK](https://github.com/daniruiz/skeuos-gtk) for GTK Theme, specifically using Violet-Dark variant
+- [Conky Config](https://github.com/davilatwin/conky_theme) for reference, but I changed some configurations for my personal use.
