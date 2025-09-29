@@ -1,4 +1,5 @@
-# Citra - Orange-themed rice, minimalistic.
+# i3-gentoo
+> not to be confused with Intel Core i3 Processors.
 
 My personal dotfiles for i3wm.
 
@@ -8,12 +9,14 @@ My personal dotfiles for i3wm.
 - **Window Manager**: i3wm + picom (for handling vsync)
 - **Terminal**: Sakura
 - **Application Launcher**: dmenu (default)
-- **Text Editor**: VIM (with orange colorscheme)
+- **Text Editor**: VIM (with custom colorscheme)
 - **Brightness and Volume Control**: brightnessctl + pulseaudio
 - **Image and Video Viewer**: feh (also for background setting) + mpv
 - **Screenshot and Screen Recorder**: scrot (short for **SCR**eensh**OT**) + ffmpeg
 - **Browser**: Firefox ESR (with userChrome.css for styling)
+- **System Status**: Conky
 
+---
 
 ## 📂 Repository Structure
 ```bash
