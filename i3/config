@@ -58,9 +58,11 @@ bindsym $mod+Shift+5 move container to workspace number $ws5
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
-# Screenshot keybind
-bindsym $mod+Shift+s exec --no-startup-id scrot -s "$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8).png" -e 'mv $f ~/Pictures/'
-bindsym Print exec --no-startup-id scrot "$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8).png" -e 'mv $f ~/Pictures/'
+# Screenshot a window
+bindsym $mod+s exec --no-startup-id scrot -u "$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8).png" -e 'mv $f ~/Pictures/'
+
+# Screenshot full screen
+bindsym Print exec --no-startup-id scrot - | xclip -selection clipboard -t image/png
 
 # Control brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
